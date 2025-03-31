@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "276576605661",
+    "project_id": "farmcab11",
+    "storage_bucket": "farmcab11.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276576605661:android:2d43569d665ac19914d234",
+        "android_client_info": {
+          "package_name": "com.example.farmcab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUXaSgcWtD1HO5mNSDZ7uC-tMtegvnjNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
