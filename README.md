@@ -1,67 +1,61 @@
-🚜 FarmCab
+# 🚜 FarmCab
 
-Uber/Ola for farm equipment — connecting farmers with equipment owners in a simple, affordable, and transparent way.
+> **Uber/Ola for farm equipment** — connecting farmers with equipment owners in a simple and affordable way.
 
-FarmCab is an Android application built using Kotlin + Jetpack Compose that enables farmers to rent agricultural equipment such as cultivators, rotavators, and tractors.
+FarmCab is an Android application built using **Kotlin + Jetpack Compose** that allows farmers to rent agricultural equipment like cultivators, rotavators, and tractors.
 
-✨ Features
-👥 User Roles
+---
 
-Equipment Owners
+## ✨ Features
 
-List equipment with name, image, description, price, and availability
+### 👥 User Roles
 
-Renters
+**🔹 Equipment Owners**
+- List equipment with name, image, description, price, and availability  
 
-Browse equipment and send rental requests
+**🔹 Renters**
+- Browse equipment and send rental requests  
 
-🔥 Core Functionalities
+---
 
-🔐 Authentication
+## 🔥 Core Functionalities
 
-Sign Up / Login
+### 🔐 Authentication
+- Sign Up / Login  
+- Email Verification  
 
-Email Verification
+### ☁️ Firebase Integration
+- Realtime Database (store equipment & bookings)  
+- Firebase Storage (image upload)  
 
-☁️ Firebase Integration
+### 🎨 Modern UI
+- Built with Jetpack Compose  
+- Clean grid layout (image + details)  
+- Green theme (`#66BB6A`)  
 
-Realtime Database (store equipment & bookings)
+### 🔍 Search & Filtering
+- Category-based filtering  
+- Optimized for quick access  
 
-Firebase Storage (image upload)
+### 📈 Scalable Design
+- Ready for location-based matching (future scope)  
 
-🎨 Modern UI
+---
 
-Built with Jetpack Compose
+## 📱 Tech Stack
 
-Clean grid layout (image + details)
+- **Kotlin + Jetpack Compose**  
+- **Firebase Authentication**  
+- **Firebase Realtime Database**  
+- **Firebase Storage**  
+- **Coil (Image Loading)**  
+- **MVVM Architecture**  
 
-Green theme (#66BB6A)
+---
 
-🔍 Search & Filtering
+## 📂 Firebase Database Structure
 
-Category-based filtering
-
-Optimized for quick access
-
-📈 Scalable Design
-
-Ready for location-based matching (future scope)
-
-📱 Tech Stack
-
-Kotlin + Jetpack Compose
-
-Firebase Authentication
-
-Firebase Realtime Database
-
-Firebase Storage
-
-Coil (Image Loading)
-
-MVVM Architecture
-
-📂 Firebase Database Structure
+```plaintext
 bookings/
     ownerId/
         bookingId/
@@ -107,24 +101,3 @@ users/
         username
         email
         contact
-🧠 Database Design Highlights
-
-⚡ Owner-based structure for easy management
-
-🚀 Category indexing for fast filtering
-
-🔁 Denormalized data model for faster reads
-
-📦 Separate bookings node for rental workflow
-
-🚀 Future Enhancements
-
-📍 Location-based equipment matching
-
-💬 In-app chat system
-
-⭐ Ratings & reviews
-
-💰 Bidding system
-
-🔔 Push notifications
