@@ -1,54 +1,65 @@
 🚜 FarmCab
 
-FarmCab is a mobile application built with Kotlin + Jetpack Compose to help farmers rent and lease agricultural equipment (like cultivators, rotavators, tractors) in a simple, affordable, and transparent way.
-Think of it as Uber/Ola for farm equipment — connecting those who need tools with those who own them.
+Uber/Ola for farm equipment — connecting farmers with equipment owners in a simple, affordable, and transparent way.
+
+FarmCab is an Android application built using Kotlin + Jetpack Compose that enables farmers to rent agricultural equipment such as cultivators, rotavators, and tractors.
 
 ✨ Features
-👥 Two User Roles
+👥 User Roles
 
-Equipment Owners:
-List equipment with name, photo, description, price, and availability
+Equipment Owners
 
-Renters:
-Browse and request available equipment
+List equipment with name, image, description, price, and availability
 
-🔥 Core Features
+Renters
 
-Firebase Integration:
+Browse equipment and send rental requests
 
-Authentication (Sign up, Login, Email Verification)
+🔥 Core Functionalities
 
-Realtime Database for storing equipment details
+🔐 Authentication
 
-Firebase Storage for storing images
+Sign Up / Login
 
-Modern UI using Jetpack Compose
+Email Verification
 
-Green color palette (0xFF66BB6A)
+☁️ Firebase Integration
 
-Grid-style home screen (image on top, details below)
+Realtime Database (store equipment & bookings)
 
-Search & category filtering
+Firebase Storage (image upload)
 
-Stored separately in Firebase for quick access
+🎨 Modern UI
 
-Scalable structure
+Built with Jetpack Compose
 
-Ready for future real-time location matching
+Clean grid layout (image + details)
+
+Green theme (#66BB6A)
+
+🔍 Search & Filtering
+
+Category-based filtering
+
+Optimized for quick access
+
+📈 Scalable Design
+
+Ready for location-based matching (future scope)
 
 📱 Tech Stack
 
-Kotlin + Jetpack Compose (UI)
+Kotlin + Jetpack Compose
 
-Firebase Authentication (Email & Password + Verification)
+Firebase Authentication
 
-Firebase Realtime Database (Equipment Listings)
+Firebase Realtime Database
 
-Firebase Storage (Image Hosting)
+Firebase Storage
 
-Coil (Image Loading in Compose)
+Coil (Image Loading)
 
-MVVM Architecture (Clean state management)
+MVVM Architecture
 
 📂 Firebase Database Structure
 bookings/
@@ -98,13 +109,13 @@ users/
         contact
 🧠 Database Design Highlights
 
-Owner-based structure for efficient equipment and booking management
+⚡ Owner-based structure for easy management
 
-Category-based indexing for fast filtering
+🚀 Category indexing for fast filtering
 
-Denormalized data model for optimized read performance
+🔁 Denormalized data model for faster reads
 
-Separate bookings node to handle rental workflow
+📦 Separate bookings node for rental workflow
 
 🚀 Future Enhancements
 
